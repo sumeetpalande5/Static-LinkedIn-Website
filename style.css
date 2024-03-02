@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    gap: 10rem;
+    padding-left: 250px;
+    background-color: white;
+}
+
+.nav input[type=text]{
+    margin: -1.8px;
+    padding-right: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
+    border-radius: 6px;
+    background-color: rgb(229, 236, 236);
+
+    
+}
+
+.nav ::placeholder{
+    padding-left: 7px;
+}
+
+
+
+.left input{
+    background-color: lightcyan;
+}
+
+.left{
+    padding-top: 5px;
+    display: flex;
+    gap: 0.7rem;
+}
+
+.right{
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    padding-top: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+    
+}
+
+.search{
+   padding-top: 5px;
+    
+}
+
+body{
+    background-color: rgb(230, 230, 226);
+}
+
+.profile{
+    border-left: 1px solid black;
+    padding-left: 5px;
+}
+
+.text{
+    text-align: center;
+    padding-top: 8px;
+    color: blue;
+}
+
+.leftSidebar{
+    width: 200px;
+    height: 350px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 200px;
+    border-radius: 10px;
+}
+
+.leftSidebar .topBg{
+    width: 100%;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background:linear-gradient(pink,rgb(107, 100, 101));
+}
+
+.profileImg{
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+    
+}
+
+.profileName{
+    text-align: center;
+    position: relative;
+    bottom: 15px;
+    border-bottom: 1px solid rgb(128, 126, 126);
+}
+
+.profileName small{
+    font-size: 1rem;
+    color: rgb(128, 126, 126);
+}
+
+.connection{
+    display: flex;
+    gap: 6.5rem;
+    padding-left: 5px;
+}
+
+#num{
+    display: flex;
+    gap: 2rem;
+    border-bottom: 1px solid rgb(128, 126, 126);
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+.pri{
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-bottom: 1px solid rgb(128, 126, 126);
+}
+
+.myItems{
+    display: flex;
+    padding-top: 8px;
+    padding-left: 5px;
+    gap: 1rem;
+}
+    
+.leftSidebar2{
+    width: 200px;
+    height: 320px;
+    background-color: white;
+    margin-top: 25px;
+    
+    border-radius: 10px;
+}
+
+.recent{
+    font-size: 18px;
+    padding-left: 5px;
+    padding-top: 6px;
+}
+
+.dsa{
+    padding-top: 8px;
+    padding-left: 5px;
+    display: flex;
+    gap: 1rem;
+}
+
+.pyDev{
+    padding-top: 8px;
+    padding-left: 5px;
+    display: flex;
+    gap: 1rem;
+}
+
+.groups{
+    font-size: 18px;
+    padding-left: 5px;
+    padding-top: 20px;
+    color: blue;
+}
+
+.dsa2{
+    padding-top: 12px;
+    padding-left: 5px;
+    display: flex;
+    gap: 1rem;
+}
+
+.pyDev2{
+    padding-top: 8px;
+    padding-left: 5px;
+    display: flex;
+    gap: 1rem;
+}
+
+.hashtag{
+    font-size: 18px;
+    padding-left: 5px;
+    padding-top: 20px;
+    color: blue;
+}
+
+.dsa3{
+    padding-top: 12px;
+    padding-left: 5px;
+    display: flex;
+    gap: 1rem;
+}
+
+.pyDev3{
+    padding-top: 8px;
+    padding-left: 5px;
+    display: flex;
+    gap: 1rem;
+}
+
+.middle{
+    width: 550px;
+    height: 120px;
+    background-color: white;
+    transform: translateX(220px);
+    margin-top: -678px;
+    border-radius: 10px;
+    
+}
+
+.middle2{
+    width: 550px;
+    height: 510px;
+    background-color: white;
+    transform: translateX(220px);
+    margin-top: 15px;
+    
+    
+}
+
+.profilePost{
+    display: flex;
+    gap: 1rem;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.inputPost{
+    padding-top: 3px;
+}
+
+.inputPost input[type=text]{
+    
+    
+    width: 450px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: white;
+
+    
+}
+
+.inputPost ::placeholder{
+    padding-left: 10px;
+    
+}
+
+.photoPost{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.videoPost{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.eventPost{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.writeArticle{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.inputContainer{
+    display: flex;
+    gap: 3rem;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.myntraHeader{
+    display: flex;
+    gap: 19rem;
+    padding: 10px;
+}
+
+.infoLikes{
+    display: flex;
+    gap: 1rem;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid  rgb(180, 178, 178);
+}
+
+.likes{
+    display: flex;
+    gap: 0.3rem;
+}
+
+.comments{
+    display: flex;
+    gap: 0.3rem;
+}
+
+.repost{
+    display: flex;
+    gap: 0.3rem;
+}
+
+.send{
+    display: flex;
+    gap: 0.3rem;
+}
+
+.likesComments{
+    display: flex;
+    gap: 1.5rem;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.middle3{
+    width: 550px;
+    height: 610px;
+    background-color: white;
+    transform: translateX(220px);
+    margin-top: 15px;
+    
+}
+
+.windAcc{
+    display: flex;
+    gap: 1.5rem;
+    padding: 10px;
+}
+
+.windHeader{
+    display: flex;
+    gap: 18rem;
+    padding: 10px;
+}
+
+.infoLikesWind{
+    display: flex;
+    gap: 1rem;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid  rgb(180, 178, 178);
+}
+
+.likes2{
+    display: flex;
+    gap: 0.3rem;
+}
+
+.comments2{
+    display: flex;
+    gap: 0.3rem;
+}
+
+.repost2{
+    display: flex;
+    gap: 0.3rem;
+}
+
+.send2{
+    display: flex;
+    gap: 0.3rem;
+}
+
+.likesComments2{
+    display: flex;
+    gap: 1.5rem;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.rightSidebar{
+    width: 280px;
+    height: 250px;
+    background-color: white;
+    transform: translateX(990px);
+    margin-top: -350px;
+    border-radius: 10px;
+}
+
+.newsTitle{
+    display: flex;
+    gap: 8rem;
+    padding: 10px;
+    padding-top: 15px;
+}
+
+.news1{
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.news2{
+    padding-left: 30px;
+    padding-top: 7px;
+}
+
+.news3{
+    padding-left: 30px;
+    padding-top: 7px;
+}
+
+.news4{
+    padding-left: 30px;
+    padding-top: 7px;
+}
+
+.rightSidebar2{
+    width: 280px;
+    height: 170px;
+    background-color: white;
+    transform: translateX(990px);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.courseTitle{
+    display: flex;
+    gap: 2.5rem;
+    padding: 10px;
+    padding-top: 15px;
+}
+
+.news11{
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.news22{
+    padding-left: 30px;
+    padding-top: 7px;
+}
+
+.rightSidebar3{
+    width: 280px;
+    height: 250px;
+    background-color: white;
+    transform: translateX(990px);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.feedTitle{
+    display: flex;
+    gap: 7rem;
+    padding: 10px;
+    padding-top: 15px;
+}
+
+.mynFeed{
+    display: flex;
+    border-bottom:  1px solid  rgb(180, 178, 178);
+    padding-bottom: 10px;
+}
+
+.windFeed{
+    display: flex;
+    gap: 1rem;
+    border-bottom:  1px solid  rgb(180, 178, 178);
+    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
